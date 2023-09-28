@@ -18,8 +18,9 @@
 
 .img img {
     width: 250px;
-    display: block;
-    margin: 0 auto;
+    display: grid;
+    margin:  auto;
+    margin-top: 10px;
 }
 .vdo {
     display: flex;
@@ -87,3 +88,8 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+.first-letter-spacing {
+    margin-left: 20px; 
+}
+
+
